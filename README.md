@@ -3,6 +3,7 @@
 This repository includes a tool for finding MC-optimal S-box circuits.  
 If you need to generate circuits quickly, you can choose an option that enables finding a circuit that is not MC-optimal (e.g., -b and -c).  
 Please refer to https://github.com/usnistgov/Circuits/tree/master/data/mc_dim for all files in **mc_dim** directory.  
+You can access all folders and files once you unzip the **Astar_MCoptimal.zip** file.  
 For more details, please refer to the paper.
 
 ## Options
