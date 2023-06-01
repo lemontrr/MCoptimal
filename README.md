@@ -1,7 +1,9 @@
 # Towards Finding S-box Circuits with Optimal Multiplicative Complexity
 
-This repository includes a tool for finding MC-optimal S-box circuits.~
-If you need to generate circuits quickly, you can choose an option that enables finding a circuit that is not MC-optimal (e.g., -b and -c).~
+This repository includes a tool for finding MC-optimal S-box circuits.
+
+If you need to generate circuits quickly, you can choose an option that enables finding a circuit that is not MC-optimal (e.g., -b and -c).
+
 For more details, please refer to the paper.
 
 ## Options:
