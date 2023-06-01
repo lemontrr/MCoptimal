@@ -7,14 +7,13 @@ If you need to generate circuits quickly, you can choose an option that enables 
 For more details, please refer to the paper.
 
 ## Options:
--S <value> (or <file>) : S-box (or S-boxes) to implement
--N <value> : the name of the S-box
--n <value> : the size of the s-box
--a : Use affine equivalence option (Section 4.1)
--b <value> : Use the optional paprameter kappa (Section 4.2)
--c <value> : Use the optional paprameter kappa without searching with distance of 1 (Section 4.2)
+-S <value> (or <file>) : S-box (or S-boxes) to implement  
+-N <value> : the name of the S-box  
+-n <value> : the size of the s-box  
+-a : Use affine equivalence option (Section 4.1)  
+-b <value> : Use the optional paprameter kappa (Section 4.2)  
+-c <value> : Use the optional paprameter kappa without searching with distance of 1 (Section 4.2)  
 -M <value> : Number of threads to use for multithreading
-
 ## Usage: 
 Run the command below.
 python Astar.py -S 1,a,4,c,6,f,3,9,2,d,b,7,5,0,8,e -N GIFT -n 4
