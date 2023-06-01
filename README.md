@@ -2,6 +2,7 @@
 
 This repository includes a tool for finding MC-optimal S-box circuits.  
 If you need to generate circuits quickly, you can choose an option that enables finding a circuit that is not MC-optimal (e.g., -b and -c).  
+Please refer to https://github.com/usnistgov/Circuits/tree/master/data/mc_dim for all files in **mc_dim** directory.
 For more details, please refer to the paper.
 
 ## Options:
@@ -21,4 +22,4 @@ Run the command below.
 >python Astar.py -S 5bitSboxes.txt -n 5 -a -b 4 -M 8  
 >python Astar.py -S 6bitSboxes.txt -n 5 -a -c 4 -M 48  
   
-Please note that the format inside {name}.txt should follow the format of the files inside the example folder.
+Please note that the format inside {name}.txt should follow the format of the files inside the **example** directory.
